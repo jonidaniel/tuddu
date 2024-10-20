@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+/*
+My Todo App
 
-function App() {
+This is a conventional todo application for browser use. You can add and
+remove any tasks you want under the 'Home' tab. The application
+saves the state of your tasks for future use even if you close the
+browser.
+
+All material used in this application is owned by the author.
+
+© 2021 All rights reserved.
+
+Author: Joni Mäkinen
+*/
+
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Home.js";
+import Info from "./Info.js";
+import Calendar from "./Calendar.js";
+import Navigation from "./Navigation.js";
+import "./App.css";
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navigation />
+      <Routes>
+        <Route path="/calendar" element={<Calendar />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/info" element={<Info />} />
+      </Routes>
+    </Router>
   );
 }
-
-export default App;

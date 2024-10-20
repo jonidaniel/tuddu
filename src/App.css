@@ -1,38 +1,68 @@
-.App {
+/* UNIVERSAL */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: powderblue;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* HOME */
+.home h1,
+.home #todo-text,
+.home #todos-left {
+  text-align: center;
+}
+.home #todo-text {
+  cursor: move;
+}
+.home input,
+.home button {
+  display: block;
+  margin: auto;
+}
+
+/* CALENDAR */
+.calendar h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* INFO */
+.info h1,
+.info p {
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* NAVIGATION */
+.navigation nav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 10vh;
+  background-color: blueviolet;
+}
+.navigation .navigation-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  width: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+/* TODOLIST */
+.todoList ul {
+  list-style-type: none;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* DRAGGABLELIST */
+.draggableList ul {
+  list-style-type: none;
+  text-align: center;
 }
