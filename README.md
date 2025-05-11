@@ -21,7 +21,6 @@
 ![](screenshots/.png?raw=true)
 ![](screenshots/.png?raw=true)
 ![](screenshots/.png?raw=true)
-![](screenshots/.png?raw=true)
 
 ## Technologies
 
