@@ -12,7 +12,7 @@
 
 - If you like, you can clone this repo with
 
-  - git clone https://github.com/jonidaniel/tuddu
+  - git clone `https://github.com/jonidaniel/tuddu`
   - then command (in root)
     - npm start; to continue the development where i left off
 
