@@ -18,9 +18,7 @@
 
 ## Screenshots
 
-![](screenshots/.png?raw=true)
-![](screenshots/.png?raw=true)
-![](screenshots/.png?raw=true)
+![](screenshots/home-page.png?raw=true)
 
 ## Technologies
 
