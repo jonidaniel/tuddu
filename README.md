@@ -11,7 +11,6 @@
   - Tested on [Apple Safari](https://www.apple.com/safari/) and [Google Chrome](https://www.google.com/chrome/)
 
 - If you like, you can clone this repo with
-
   - `git clone https://github.com/jonidaniel/tuddu`
   - then command (in root)
     - `npm start` to continue the development where i left off
