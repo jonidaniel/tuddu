@@ -31,10 +31,6 @@
 
 - CSS
 
-## License
-
-- MIT License
-
 ## Author
 
 2021 © Joni Mäkinen [@jonidaniel](https://github.com/jonidaniel)
